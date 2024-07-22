@@ -1,8 +1,8 @@
 **Multi-Stage, Multi-Agent Jenkins Pipeline Demo**
 
-This Jenkins pipeline demonstrates the use of multiple stages and agents to build and test a project with different environments for the back-end and front-end tiers. By making use of Docker images for each stage, this pipeline ensures consistency & isolation in the build and test environments. 
+This Jenkins pipeline demonstrates the use of multiple stages and agents to build and test a project with different environments for the back-end and front-end stages. By making use of Docker images for each stage, this pipeline ensures consistency & isolation in the build and test environments. 
 
-**Use Case:** This approach is particularly useful for projects that require different tools or versions of tools for different parts of the application.
+**Use Case:** This approach is particularly useful for projects that require different tools or versions of tools for different parts of the application. Basically, for use cases with more than one project stage or more than one project agent to be used.
 
 **Major prerequisites:**
 
